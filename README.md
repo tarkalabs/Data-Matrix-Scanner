@@ -29,6 +29,6 @@ https://user-images.githubusercontent.com/16992520/230060827-3ae9162a-c1f5-4894-
 
 
 # Test Data Matrix code on Metal surface
-| | | |
+| | |
 |:-------------------------:|:-------------------------:|
-|<img width="800" alt="DMC example 1" src="https://user-images.githubusercontent.com/16992520/230059783-b0caea6d-7f9c-4550-bd4f-f5121b8db63c.JPG">  |  <img width="800" alt="DMC Example 2" src="https://user-images.githubusercontent.com/16992520/230059813-22ec783b-28bd-4502-bb4b-b441049a2eed.jpeg">
+|<img width="1604" alt="DMC example 1" src="https://user-images.githubusercontent.com/16992520/230059783-b0caea6d-7f9c-4550-bd4f-f5121b8db63c.JPG"> |  <img width="1604" alt="DMC Example 2" src="https://user-images.githubusercontent.com/16992520/230059813-22ec783b-28bd-4502-bb4b-b441049a2eed.jpeg">|
