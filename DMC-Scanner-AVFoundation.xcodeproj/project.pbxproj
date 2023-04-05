@@ -11,7 +11,6 @@
 		ED21174B29DD3F8500BBEB21 /* ScannerVisionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED21174A29DD3F8500BBEB21 /* ScannerVisionVC.swift */; };
 		ED21174D29DD807500BBEB21 /* ScannerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED21174C29DD807500BBEB21 /* ScannerDelegate.swift */; };
 		ED7C61BF29D6A74A002B2DD9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7C61BE29D6A74A002B2DD9 /* FirstViewController.swift */; };
-		ED7C61C629DAB25E002B2DD9 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7C61C529DAB25E002B2DD9 /* Metal.framework */; };
 		EDBB6EEE29D3FD0100A37F1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBB6EED29D3FD0100A37F1C /* AppDelegate.swift */; };
 		EDBB6EF029D3FD0100A37F1C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBB6EEF29D3FD0100A37F1C /* SceneDelegate.swift */; };
 		EDBB6EF529D3FD0100A37F1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDBB6EF329D3FD0100A37F1C /* Main.storyboard */; };
@@ -39,7 +38,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED7C61C629DAB25E002B2DD9 /* Metal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
