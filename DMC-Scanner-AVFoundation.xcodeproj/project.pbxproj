@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED0CAD4729D5671D0006AD9D /* ScannerAVFoundationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0CAD4629D5671D0006AD9D /* ScannerAVFoundationVC.swift */; };
+		ED21174B29DD3F8500BBEB21 /* ScannerVisionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED21174A29DD3F8500BBEB21 /* ScannerVisionVC.swift */; };
+		ED21174D29DD807500BBEB21 /* ScannerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED21174C29DD807500BBEB21 /* ScannerDelegate.swift */; };
+		ED7C61BF29D6A74A002B2DD9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7C61BE29D6A74A002B2DD9 /* FirstViewController.swift */; };
+		ED7C61C629DAB25E002B2DD9 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7C61C529DAB25E002B2DD9 /* Metal.framework */; };
 		EDBB6EEE29D3FD0100A37F1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBB6EED29D3FD0100A37F1C /* AppDelegate.swift */; };
 		EDBB6EF029D3FD0100A37F1C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBB6EEF29D3FD0100A37F1C /* SceneDelegate.swift */; };
-		EDBB6EF229D3FD0100A37F1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBB6EF129D3FD0100A37F1C /* ViewController.swift */; };
 		EDBB6EF529D3FD0100A37F1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDBB6EF329D3FD0100A37F1C /* Main.storyboard */; };
 		EDBB6EF729D3FD0200A37F1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDBB6EF629D3FD0200A37F1C /* Assets.xcassets */; };
 		EDBB6EFA29D3FD0200A37F1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDBB6EF829D3FD0200A37F1C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED0CAD4629D5671D0006AD9D /* ScannerAVFoundationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerAVFoundationVC.swift; sourceTree = "<group>"; };
+		ED21174A29DD3F8500BBEB21 /* ScannerVisionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerVisionVC.swift; sourceTree = "<group>"; };
+		ED21174C29DD807500BBEB21 /* ScannerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerDelegate.swift; sourceTree = "<group>"; };
+		ED7C61BE29D6A74A002B2DD9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		ED7C61C529DAB25E002B2DD9 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
 		EDBB6EEA29D3FD0100A37F1C /* DMC-Scanner-AVFoundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DMC-Scanner-AVFoundation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDBB6EED29D3FD0100A37F1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDBB6EEF29D3FD0100A37F1C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EDBB6EF129D3FD0100A37F1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EDBB6EF429D3FD0100A37F1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EDBB6EF629D3FD0200A37F1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDBB6EF929D3FD0200A37F1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -31,17 +39,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED7C61C629DAB25E002B2DD9 /* Metal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED21174E29DD83E000BBEB21 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				ED21174C29DD807500BBEB21 /* ScannerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		ED21174F29DD83ED00BBEB21 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				ED7C61BE29D6A74A002B2DD9 /* FirstViewController.swift */,
+				ED0CAD4629D5671D0006AD9D /* ScannerAVFoundationVC.swift */,
+				ED21174A29DD3F8500BBEB21 /* ScannerVisionVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		ED7C61C429DAB25E002B2DD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED7C61C529DAB25E002B2DD9 /* Metal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EDBB6EE129D3FD0100A37F1C = {
 			isa = PBXGroup;
 			children = (
 				EDBB6EEC29D3FD0100A37F1C /* DMC-Scanner-AVFoundation */,
 				EDBB6EEB29D3FD0100A37F1C /* Products */,
+				ED7C61C429DAB25E002B2DD9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,7 +94,8 @@
 			children = (
 				EDBB6EED29D3FD0100A37F1C /* AppDelegate.swift */,
 				EDBB6EEF29D3FD0100A37F1C /* SceneDelegate.swift */,
-				EDBB6EF129D3FD0100A37F1C /* ViewController.swift */,
+				ED21174E29DD83E000BBEB21 /* Protocols */,
+				ED21174F29DD83ED00BBEB21 /* ViewControllers */,
 				EDBB6EF329D3FD0100A37F1C /* Main.storyboard */,
 				EDBB6EF629D3FD0200A37F1C /* Assets.xcassets */,
 				EDBB6EF829D3FD0200A37F1C /* LaunchScreen.storyboard */,
@@ -83,6 +120,8 @@
 			dependencies = (
 			);
 			name = "DMC-Scanner-AVFoundation";
+			packageProductDependencies = (
+			);
 			productName = "DMC-Scanner-AVFoundation";
 			productReference = EDBB6EEA29D3FD0100A37F1C /* DMC-Scanner-AVFoundation.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +150,8 @@
 				Base,
 			);
 			mainGroup = EDBB6EE129D3FD0100A37F1C;
+			packageReferences = (
+			);
 			productRefGroup = EDBB6EEB29D3FD0100A37F1C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +179,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDBB6EF229D3FD0100A37F1C /* ViewController.swift in Sources */,
+				ED21174B29DD3F8500BBEB21 /* ScannerVisionVC.swift in Sources */,
 				EDBB6EEE29D3FD0100A37F1C /* AppDelegate.swift in Sources */,
 				EDBB6EF029D3FD0100A37F1C /* SceneDelegate.swift in Sources */,
+				ED7C61BF29D6A74A002B2DD9 /* FirstViewController.swift in Sources */,
+				ED0CAD4729D5671D0006AD9D /* ScannerAVFoundationVC.swift in Sources */,
+				ED21174D29DD807500BBEB21 /* ScannerDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,11 +334,13 @@
 				DEVELOPMENT_TEAM = RP4PNYFADM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "DMC-Scanner-AVFoundation/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Used to Scan DMC Code";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +348,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "tarka.DMC-Scanner-AVFoundation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -318,11 +367,13 @@
 				DEVELOPMENT_TEAM = RP4PNYFADM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "DMC-Scanner-AVFoundation/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Used to Scan DMC Code";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +381,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "tarka.DMC-Scanner-AVFoundation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
